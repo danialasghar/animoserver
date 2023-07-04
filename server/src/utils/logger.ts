@@ -7,7 +7,7 @@ import { appendFileSync } from 'fs'
 import { Logger } from 'tslog'
 
 function logToTransport(logObject: ILogObject) {
-  appendFileSync('logs.txt', JSON.stringify(logObject) + '\n')
+  // appendFileSync('logs.txt', JSON.stringify(logObject) + '\n')
 }
 
 export class TestLogger extends BaseLogger {
