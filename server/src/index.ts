@@ -47,8 +47,8 @@ const run = async () => {
     },
     indyLedgers: [
       {
-        id: 'BCOVRIN_TEST_GENESIS',
-        genesisTransactions: BCOVRIN_TEST_GENESIS,
+        id: 'VON',
+        genesisTransactions: VON,
         isProduction: false,
       },
     ],
