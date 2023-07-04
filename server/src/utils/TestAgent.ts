@@ -19,8 +19,8 @@ const agentConfig: InitConfig = {
   },
   indyLedgers: [
     {
-      id: 'VON',
-      genesisTransactions: VON,
+      id: 'BCOVRIN_TEST_GENESIS',
+      genesisTransactions: BCOVRIN_TEST_GENESIS,
       isProduction: false,
     },
   ],
