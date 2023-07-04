@@ -6,6 +6,7 @@ import { startServer } from '@aries-framework/rest'
 
 import { TestLogger } from './logger'
 import { BCOVRIN_TEST_GENESIS } from './utils'
+import { VON } from './utils'
 
 const PORT = 9000
 const logger = new TestLogger(LogLevel.debug)
@@ -18,8 +19,8 @@ const agentConfig: InitConfig = {
   },
   indyLedgers: [
     {
-      id: 'BCOVRIN_TEST_GENESIS',
-      genesisTransactions: BCOVRIN_TEST_GENESIS,
+      id: 'VON',
+      genesisTransactions: VON,
       isProduction: false,
     },
   ],

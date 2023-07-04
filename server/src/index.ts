@@ -21,6 +21,7 @@ import { CredDefService } from './controllers/CredDefService'
 import { AgentCleanup } from './utils/AgentCleanup'
 import { TestLogger } from './utils/logger'
 import { BCOVRIN_TEST_GENESIS } from './utils/utils'
+import { VON } from './utils/utils'
 
 const logger = new TestLogger(process.env.NODE_ENV ? LogLevel.error : LogLevel.debug)
 
